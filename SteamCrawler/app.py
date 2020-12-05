@@ -76,7 +76,10 @@ while game_queue:
     progress = 0
     for i in range(game['review_count']//10):#한번에 열개씩 받아오니까
         reviews = gR.get_next_reviews()
+
+        #진행상황 로깅
         print('{:.2f}%'.format(100*progress/game['review_count']), 'Time reamaining {:30s}'.format(str(datetime.timedelta(seconds=game['review_count']/(progress/(time.time()-start)) if progress >0 else 0))),  end="\r")
+        
         if reviews:
             batch += reviews
             progress += len(reviews)
@@ -86,5 +89,3 @@ while game_queue:
 
 end = time.time()
 print(end - start)
-    
-    
