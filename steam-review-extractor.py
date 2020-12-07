@@ -38,8 +38,10 @@ def extract_reviews(basepath, outputfile_name):
     userre = re.compile(r'/(profiles|id)/(.+?)/')
     with open(outputfile_name, mode="w", encoding="utf-8-sig", newline="") as outputfile:
         writer = csv.writer(outputfile)
+        # 컬럼 입력
         writer.writerow(["id_", "helpful", "funny", "username",
                          "owned", "numrev", "recco", "time", "posted", "content"])
+
         for root, _, files in os.walk(basepath):
             m = idre.search(root)
             if m:
