@@ -40,7 +40,7 @@ def extract_reviews(basepath, outputfile_name):
         writer = csv.writer(outputfile)
         # 컬럼 입력
         writer.writerow(["id_", "helpful", "funny", "username",
-                         "owned", "numrev", "recco", "time", "posted", "content"])
+                         "owned", "numrev", "recommended", "time", "posted", "content"])
 
         for root, _, files in os.walk(basepath):
             m = idre.search(root)
@@ -92,14 +92,14 @@ def extract_reviews(basepath, outputfile_name):
                             m = revre.search(elem.text)
                             if m:
                                 numrev = m.group(1)
-                        recco = 0
+                        recommended = 0
                         elem = reviewdiv.find(
                             'div', attrs={'class': 'title ellipsis'})
                         if elem:
                             if elem.text == 'Recommended':
-                                recco = 1
+                                recommended = 1
                             else:
-                                recco = -1
+                                recommended = -1
                         time = 0
                         elem = reviewdiv.find(
                             'div', attrs={'class': 'hours ellipsis'})
@@ -122,7 +122,7 @@ def extract_reviews(basepath, outputfile_name):
                         if elem:
                             content = elem.text.strip()
                         writer.writerow(
-                            (id_, helpful, funny, username, owned, numrev, recco, time, posted, content))
+                            (id_, helpful, funny, username, owned, numrev, recommended, time, posted, content))
 
 
 def main():
