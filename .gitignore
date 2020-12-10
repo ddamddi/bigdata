@@ -130,3 +130,6 @@ dmypy.json
 
 # output dir
 data/
+
+#csv
+*.csv
