@@ -101,7 +101,7 @@ def getgamereviews(ids, timeout, maxretries, pause, out):
                         print(htmlpage)
                         final_count += 1
 
-                        if final_count > 3:
+                        if final_count > 5:
                             break
                     else:
                         final_count = 0
