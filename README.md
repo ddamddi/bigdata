@@ -15,9 +15,8 @@
 
 ## Resources
 - [***Crawler***](https://github.com/ddamddi/bigdata/tree/main/Crawler)
-    - `steam-review-crawler.py` - [???]
-    - `steam-review-extractor.py` - [???]  
-    - `steam-reviews-stats.py` - [???]  
+    - `steam-review-crawler.py` - Code to fetch reviews as html format from Steam
+    - `steam-review-extractor.py` - Parse the Steam review files in html format and save them in csv format  
     - `sentiments.ipynb` - get comment sentiments using nltk library
 - ***Recommender***
     - `attempt_1_KNN_all_reviews.ipynb` - [???]  
@@ -26,7 +25,7 @@
     - `unused_KNN_reviews_gt_1.ipynb` - [???]  
     - `user-based_knn_with_sentiment.ipynb` - User-based CF with KNN using comment sentiment
 - [***Visualization***](https://github.com/ddamddi/bigdata/tree/main/Visualization)
-    - `KNN_with_sentiment_add_visul1.ipynb` - [???]
+    - `KNN_with_sentiment_add_visul1.ipynb` - Bubble chart generation code created by modifying Matplotlib unreleased code
     - `KNN_with_sentiment_add_visul2.ipynb` - [???]
 
 ## References
