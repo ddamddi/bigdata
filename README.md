@@ -11,12 +11,14 @@
 ## Environment
 - nltk
 - scikit-learn
+- pandas
 
 ## Resources
 - [***Crawler***](https://github.com/ddamddi/bigdata/tree/main/Crawler)
     - `steam-review-crawler.py` - [???]
     - `steam-review-extractor.py` - [???]  
     - `steam-reviews-stats.py` - [???]  
+    - `sentiments.ipynb` - get comment sentiments using nltk library
 - ***Recommender***
     - `attempt_1_KNN_all_reviews.ipynb` - [???]  
     - `attempt_2_KNN_with_sentiment_all_reviews.ipynb` - [???]  
