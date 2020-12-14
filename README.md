@@ -17,7 +17,7 @@
 - [***Crawler***](https://github.com/ddamddi/bigdata/tree/main/Crawler)
     - `steam-review-crawler.py` - Code to fetch reviews as html format from Steam
     - `steam-review-extractor.py` - Parse the Steam review files in html format and save them in csv format  
-    - `sentiments.ipynb` - get comment sentiments using nltk library
+    - `sentiments.ipynb` - Get comment sentiments using nltk library
 - ***Recommender***
     - `attempt_1_KNN_all_reviews.ipynb` - [???]  
     - `attempt_2_KNN_with_sentiment_all_reviews.ipynb` - [???]  
