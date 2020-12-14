@@ -1,10 +1,16 @@
 # *Game Recommendation System using Collaborative Filtering with KNN*   
 
-## CAU Team Project
+## 2020-2 CAU BigData(#50648) Team Project
 팀명 : *Big Cram*    
 팀원 : 민준홍(팀장) 김경현 이수호 정영진 이혜성
 
 ## Dataset - *Steam Review*
+- Steam game review 데이터를 직접 크롤링하여 사용
+- [Google Drive]()
+
+## Environment
+- nltk
+- scikit-learn
 
 ## Resources
 - [***Crawler***](https://github.com/ddamddi/bigdata/tree/main/Crawler)
