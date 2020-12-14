@@ -3,14 +3,14 @@
 **Dataset**: Steam Review
 
 ## Resources
-- [Crawler](https://github.com/ddamddi/bigdata/tree/main/Crawler)
-- Recommender
+- [*Crawler*](https://github.com/ddamddi/bigdata/tree/main/Crawler)
+- *Recommender*
     - `attempt_1_KNN_all_reviews.ipynb` -
     - `attempt_2_KNN_with_sentiment_all_reviews.ipynb` - 
     - `attempt_3_KNN_with_sentiment_reviews_gt_1.ipynb` -
     - `unused_KNN_reviews_gt_1.ipynb` - 
     - `user-based_knn_with_sentiment.ipynb` - User-based CF with KNN using comment sentiment
-- [Visualization](https://github.com/ddamddi/bigdata/tree/main/Visualization)
+- [*Visualization*](https://github.com/ddamddi/bigdata/tree/main/Visualization)
 
 ## References
 * [aesuli's Steam-Crawler](https://github.com/aesuli/steam-crawler)
