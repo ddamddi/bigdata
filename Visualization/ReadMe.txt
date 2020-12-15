@@ -15,6 +15,6 @@
 // result 네트워크 시각화
 참조 사이트: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8
 
-requirement
+Usage
 - npm install http-server
 - (index.html이 있는 디렉토리) http-server ./
