@@ -24,10 +24,10 @@
   - `steam-review-extractor.py` - Parse the Steam review files in html format and save them in csv format
   - `sentiments.ipynb` - Get comment sentiments using nltk library
 - **_Recommender_**
-  - `attempt_1_KNN_all_reviews.ipynb` - [???]
-  - `attempt_2_KNN_with_sentiment_all_reviews.ipynb` - [???]
-  - `attempt_3_KNN_with_sentiment_reviews_gt_1.ipynb` - [???]
-  - `unused_KNN_reviews_gt_1.ipynb` - [???]
+  - `attempt_1_KNN_all_reviews.ipynb` - 1st attempt at Item-based CF with KNN using all reviews and binary rating
+  - `attempt_2_KNN_with_sentiment_all_reviews.ipynb` - 2nd attempt at Item-based CF with KNN using all reviews and comment sentiment
+  - `attempt_3_KNN_with_sentiment_reviews_gt_1.ipynb` - 3rd attempt at Item-based CF with KNN using filtered reviews and comment sentiment
+  - `unused_KNN_reviews_gt_1.ipynb` - Item-based CF with KNN using filtered reviews and binary rating, but not mentioned in final report
   - `user-based_knn_with_sentiment.ipynb` - User-based CF with KNN using comment sentiment
 - [**_Visualization_**](https://github.com/ddamddi/bigdata/tree/main/Visualization)
   - `KNN_with_sentiment_add_visul1.ipynb` - Bubble chart generation code created by modifying Matplotlib unreleased code
