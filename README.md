@@ -15,6 +15,7 @@
 - nltk
 - scikit-learn
 - pandas
+- http-server
 
 ## Resources
 
