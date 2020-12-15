@@ -8,7 +8,7 @@
 ## Dataset - _Steam Review_
 
 - Steam game review 데이터를 직접 크롤링하여 사용
-- [Google Drive]()
+- [Google Drive](https://drive.google.com/drive/folders/1U18dv0x2KsOGAO5G-iJV8kXzPVpe7ePY?usp=sharing)
 
 ## Environment
 
